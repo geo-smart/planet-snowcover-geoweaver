@@ -1,0 +1,25 @@
+[{
+  "id" : "2lktg6",
+  "name" : "env_planet_snowcover",
+  "description" : null,
+  "code" : "#!/bin/bash\n\ncat << EOF > requirements.txt\nSQLAlchemy @ file:///opt/concourse/worker/volumes/live/bfe20d71-b806-4187-4783-cd5d96eb1af2/volume/sqlalchemy_1647599831148/work\nsqlparse==0.4.2\nsrsly==2.4.3\nstatsmodels @ file:///opt/concourse/worker/volumes/live/237cf070-cf87-4ff8-6149-8213b5eb40a5/volume/statsmodels_1614023802257/work\nsympy @ file:///opt/concourse/worker/volumes/live/2af8c70b-e999-41ad-6ca8-39318707cbda/volume/sympy_1647854069899/work\ntables @ file:///opt/concourse/worker/volumes/live/daa73f70-754b-4f28-73ce-6f96c40f4b9d/volume/pytables_1607975400838/work\ntabulate==0.8.9\ntangled-up-in-unicode==0.2.0\nTBB==0.2\ntblib @ file:///Users/ktietz/demo/mc3/conda-bld/tblib_1629402031467/work\ntenacity==8.0.1\ntensorboard==2.7.0\ntensorboard-data-server==0.6.1\ntensorboard-plugin-wit==1.8.1\ntensorflow==2.7.0\ntensorflow-estimator==2.7.0\ntensorflow-io-gcs-filesystem==0.23.1\ntermcolor==1.1.0\nEOF\n\n# if this environment is not there\n# create this new env required by snowcover mapping workflow\nconda env create planet-snowcover\npip install -r requirements.txt\n\n",
+  "lang" : "shell",
+  "owner" : "111111",
+  "confidential" : "FALSE"
+},{
+  "id" : "mzc7f2",
+  "name" : "data_planet_imagery_training",
+  "description" : "python",
+  "code" : "# Write first python in Geoweaver\nimport os\n\n# tony's code for planet data retrieval goes here",
+  "lang" : "python",
+  "owner" : "111111",
+  "confidential" : "FALSE"
+},{
+  "id" : "gv94k8",
+  "name" : "data_aso_training",
+  "description" : "python",
+  "code" : "# Write first python in Geoweaver\n\n# copy tony notebook code here, remove all those graphing, unnecessary business logic.\n# print out all necessary logs",
+  "lang" : "python",
+  "owner" : "111111",
+  "confidential" : "FALSE"
+}]
