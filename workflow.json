@@ -1,9 +1,9 @@
 {
-  "id" : "zqyy2pkjj0d7tq3lhupn",
-  "name" : "planet-snowcover-mapping",
-  "description" : "snow cover mapping workflow using all sorts of products",
+  "id" : "07dgl04k4blyrt73hnun",
+  "name" : "SCA_mapping",
+  "description" : "",
   "owner" : "111111",
   "confidential" : "FALSE",
-  "edges" : "[{\"source\":{\"title\":\"env_planet_snowcover\",\"id\":\"2lktg6-4mweS\",\"x\":468,\"y\":196,\"color\":\"\"},\"target\":{\"title\":\"data_planet_imagery_training\",\"id\":\"mzc7f2-gCaPM\",\"x\":740.6926879882812,\"y\":314.4288024902344}},{\"source\":{\"title\":\"env_planet_snowcover\",\"id\":\"2lktg6-4mweS\",\"x\":468,\"y\":196,\"color\":\"\"},\"target\":{\"title\":\"data_aso_training\",\"id\":\"gv94k8-ojsOB\",\"x\":459.40557861328125,\"y\":426.2871551513672}}]",
-  "nodes" : "[{\"title\":\"env_planet_snowcover\",\"id\":\"2lktg6-4mweS\",\"x\":468,\"y\":196,\"color\":\"\"},{\"title\":\"data_planet_imagery_training\",\"id\":\"mzc7f2-gCaPM\",\"x\":740.6926879882812,\"y\":314.4288024902344},{\"title\":\"data_aso_training\",\"id\":\"gv94k8-ojsOB\",\"x\":459.40557861328125,\"y\":426.2871551513672}]"
+  "edges" : "[{\"source\":{\"title\":\"test\",\"id\":\"yvn0xo-I0AOK\",\"x\":127,\"y\":478,\"color\":\"green\"},\"target\":{\"title\":\"test\",\"id\":\"yvn0xo-8HceM\",\"x\":366,\"y\":329,\"color\":\"green\"}}]",
+  "nodes" : "[{\"title\":\"test\",\"id\":\"yvn0xo-I0AOK\",\"x\":127,\"y\":478,\"color\":\"green\"},{\"title\":\"test\",\"id\":\"yvn0xo-8HceM\",\"x\":366,\"y\":329,\"color\":\"green\"}]"
 }
